@@ -21,6 +21,7 @@ class App extends Component {
 	componentDidMount() {
 		console.log("App - Mounted");
 	}
+
 	handleIncrement = (counter) => {
 		const counters = [...this.state.counters];
 		const index = counters.indexOf(counter);
